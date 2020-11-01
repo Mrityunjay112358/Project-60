@@ -26,7 +26,7 @@ p {
 }
 
 #work {
-    height: 410px;
+    height: 1000xpx;
     background: linear-gradient(#de371e 0%, #f9e00b 100%);
 }
 
@@ -44,7 +44,7 @@ p {
     cursor: pointer;
     position: fixed;
     color:floralwhite;
-     
+    background: linear-gradient(#34e00d 0%, #e07e0d 100%);  
 }
 
 .links {
@@ -55,6 +55,7 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
+    color:floralwhite;
 }
 
 .links:hover {
@@ -83,5 +84,9 @@ img{
 }
 
 img:hover{
-    transform: scale(0.9);
+    transform: scale(1.2);
+}
+
+#work iframe{
+    height: 500px;
 }
